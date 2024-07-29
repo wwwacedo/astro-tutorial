@@ -65,6 +65,20 @@ h1 {
   display: unset;
 }
 
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5rem;
+	margin: 0.5rem 0 1rem 0;
+}
+
+.tag {
+	background-color: #ff5522;
+	color: white;
+	padding: 0.5rem 1rem;
+	border-radius: 20px;
+}
+
 @media screen and (min-width: 636px) {
   .nav-links {
     display: block;
